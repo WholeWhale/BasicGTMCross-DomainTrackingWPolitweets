@@ -1,0 +1,1424 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-02-18 19:59:05",
+    "containerVersion": {
+        "path": "accounts/7407459/containers/12754757/versions/0",
+        "accountId": "7407459",
+        "containerId": "12754757",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/7407459/containers/12754757",
+            "accountId": "7407459",
+            "containerId": "12754757",
+            "name": "General Formula",
+            "publicId": "GTM-NZWL5SQ",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1580772302173",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/7407459/containers/12754757/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "3",
+                "name": "All Sites - Outbound Links",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772209771",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "4",
+                "name": "All Sites - PDF Downloads",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Downloads"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "PDF"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772271252",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "6",
+                "name": "Cross-Domain - All Link Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Link Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Page: {{Page URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Link: {{Click URL}} - {{Click Text}}"
+                    }
+                ],
+                "fingerprint": "1580772043368",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "7",
+                "name": "All Sites - Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    }
+                ],
+                "fingerprint": "1580772162199",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "8",
+                "name": "Cross-Domain - Adjusted Bounce Rate",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Visit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "15 seconds"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1580771967214",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "9",
+                "name": "All Sites - Click Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "All Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Text: {{Click Text}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772107779",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "10",
+                "name": "All Sites - Scroll Depth",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Percentage: {{Scroll Depth Threshold}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page URL: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772323305",
+                "firingTriggerId": [
+                    "22"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "11",
+                "name": "All sites - Adjusted Bounce Rate",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Visit"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "15 seconds"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1580771944293",
+                "firingTriggerId": [
+                    "17"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "12",
+                "name": "All Sites - All Link Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Link Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Cross-Domain GA Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Page: {{Page URL}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Link: {{Click URL}} - {{Click Text}}"
+                    }
+                ],
+                "fingerprint": "1580772004473",
+                "firingTriggerId": [
+                    "14"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "13",
+                "name": "Cross-domain - Click Tracking",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "All Clicks"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Text: {{Click Text}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772089510",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "14",
+                "name": "Cross-Domain - Google Analytics Pageview",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    }
+                ],
+                "fingerprint": "1580772136888",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "15",
+                "name": "Cross-Domain - Outbound Links",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Outbound Links"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772187000",
+                "firingTriggerId": [
+                    "16"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "16",
+                "name": "Cross-Domain - PDF Downloads",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Downloads"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "PDF"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1580772247308",
+                "firingTriggerId": [
+                    "10"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "17",
+                "name": "Cross-Domain Scroll Depth",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Scroll Depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Google Analytics Settings}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Percentage: {{Scroll Depth Threshold}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Page URL: {{Page URL}}"
+                    }
+                ],
+                "fingerprint": "1580772302173",
+                "firingTriggerId": [
+                    "22"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "tagId": "34",
+                "name": "PolyTweets",
+                "type": "cvt_12754757_21",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "debug",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1582054585210",
+                "firingTriggerId": [
+                    "13"
+                ],
+                "parentFolderId": "5",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "10",
+                "name": "PDF Click",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".pdf"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564854480",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "12",
+                "name": "Form Submission",
+                "type": "FORM_SUBMISSION",
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564384479",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "13",
+                "name": "Window Load",
+                "type": "WINDOW_LOADED",
+                "fingerprint": "1566564863997",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "14",
+                "name": "All Links",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "."
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564562995",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "15",
+                "name": "All Pages Pageview",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "."
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1566564637676",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "16",
+                "name": "All Outbound Links",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "yoursite.org"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "true"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1566564749207",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "17",
+                "name": "15 Second Timer",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "15000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1566565488389",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "18",
+                "name": "All Clicks",
+                "type": "CLICK",
+                "fingerprint": "1566565880827",
+                "parentFolderId": "6"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "triggerId": "22",
+                "name": "Scroll Depth",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1567079249949",
+                "parentFolderId": "6",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "50,75,100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "triggerStartOption",
+                        "value": "WINDOW_LOAD"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "1",
+                "name": "Google Analytics Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-00000-0"
+                    }
+                ],
+                "fingerprint": "1566564957701",
+                "parentFolderId": "7"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "3",
+                "name": "URL",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "URL"
+                    }
+                ],
+                "fingerprint": "1566565450730",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "5",
+                "name": "Cross-Domain GA Property ID",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Page Hostname}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "UA-"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1580063792027",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "6",
+                "name": "Cross-Domain GA Settings",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "allowLinker"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "{{Auto-Link Domains}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{Cross-Domain GA Property ID}}"
+                    }
+                ],
+                "fingerprint": "1580064070168",
+                "parentFolderId": "7"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "7",
+                "name": "Auto-Link Domains",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "list-of-url-domains,separated-by-commas"
+                    }
+                ],
+                "fingerprint": "1580063980726",
+                "parentFolderId": "7",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "8",
+                "name": "Erase Linker Query from URL",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n   var url = window.location.href;\n  if(url.indexOf('_ga') !== -1 && window.history){\n    url = url.split('?')[0];\n    window.history.replaceState(\"state\", \"\", url);\n    return true\n  };\n  return false\n}"
+                    }
+                ],
+                "fingerprint": "1580764307780",
+                "formatValue": {}
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "variableId": "35",
+                "name": "PII Scrubber",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function () {\n  // using the customTask Builder by Simo Ahava\n  //\n  // More information about customTask: https://www.simoahava.com/analytics/customtask-the-guide/\n  //\n  // Change the default values for the settings below.\n\n  // piiRegex: Array of {name, regex} objects, where the regular expression matches a pattern you want to replace with [REDACTED name].\n  // https://bit.ly/2wcJym2\n  var piiRegex = [{\n        name: 'EMAIL',\n        regex: /[^?]{4,}(@|%40)(?!youremail\\.com)[^\\/]{4,}(?:\\.)/gi,\n        group: ''\n      },{\n      name: 'SELF-EMAIL',\n        regex: /[^?]{4,}(@|%40)(?=youremail\\.com)[^\\/]{4,}(?:\\.)/gi,\n        group: ''\n      },{\n        name: 'TEL',\n        regex: /((tel=)|(telephone=)|(phone=)|(mobile=)|(mob=))[\\d\\+\\s][^&\\/\\?]+/gi,\n        group: '$1'\n      },{\n        name: 'NAME',\n        regex: /((firstname=)|(lastname=)|(surname=)|(cons_first_name=)|(cons_last_name=))[^&\\/\\?]+/gi,\n        group: '$1'     \n      },{\n        name: 'PASSWORD',\n        regex: /((password=)|(passwd=)|(pass=))[^&\\/\\?]+/gi,\n        group: '$1'\n      },{\n        name: 'ZIP',\n        regex: /((postcode=)|(zipcode=)|(zip=))[^&\\/\\?]+/gi,\n        group: '$1'\n      }\n    ];\n\n  // DO NOT EDIT ANYTHING BELOW THIS LINE\n  var readFromStorage = function (key) {\n    if (!window.Storage) {\n      // From: https://stackoverflow.com/a/15724300/2367037\n      var value = '; ' + document.cookie;\n      var parts = value.split('; ' + key + '=');\n      if (parts.length === 2) {\n        return parts.pop().split(';').shift();\n      }\n    } else {\n      return window.localStorage.getItem(key);\n    }\n  };\n\n  var writeToStorage = function (key, value, expireDays) {\n    if (!window.Storage) {\n      var expiresDate = new Date();\n      expiresDate.setDate(expiresDate.getDate() + expireDays);\n      document.cookie = key + '=' + value + ';expires=' + expiresDate.toUTCString();\n    } else {\n      window.localStorage.setItem(key, value);\n    }\n  };\n\n  var globalSendHitTaskName   = '_ga_originalSendHitTask';\n\n  return function (customTaskModel) {\n\n    window[globalSendHitTaskName] = window[globalSendHitTaskName] || customTaskModel.get('sendHitTask');\n\n\n    customTaskModel.set('sendHitTask', function (sendHitTaskModel) {\n\n      var originalSendHitTaskModel = sendHitTaskModel,\n          originalSendHitTask      = window[globalSendHitTaskName],\n          canSendHit               = true;\n\n      try {\n\n        // piiRegex\n        if (typeof piiRegex !== 'undefined' && piiRegex.length) {\n          var _pr_hitPayloadParts = sendHitTaskModel.get('hitPayload').split('&');\n          for (var _pr_regexI = 0; _pr_regexI < _pr_hitPayloadParts.length; _pr_regexI++) {\n            var _pr_param = _pr_hitPayloadParts[_pr_regexI].split('=');\n            var _pr_val;\n            try {\n              _pr_val = decodeURIComponent(decodeURIComponent(_pr_param[1]));\n            } catch(e) {\n              _pr_val = decodeURIComponent(_pr_param[1]);\n            }\n            piiRegex.forEach(function(pii) {\n              _pr_val = _pr_val.replace(pii.regex, '[REDACTED ' + pii.name + ']');\n            });\n            _pr_param[1] = encodeURIComponent(_pr_val);\n            _pr_hitPayloadParts[_pr_regexI] = _pr_param.join('=');\n          }\n          sendHitTaskModel.set('hitPayload', _pr_hitPayloadParts.join('&'), true);\n        }\n        // /piiRegex\n\n        if (canSendHit) {\n          originalSendHitTask(sendHitTaskModel);\n        }\n\n      } catch(err) {\n        originalSendHitTask(originalSendHitTaskModel);\n      }\n\n    });\n\n  };\n}"
+                    }
+                ],
+                "fingerprint": "1582055931222",
+                "parentFolderId": "7",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "5",
+                "name": "WW Sandbox Tags",
+                "fingerprint": "1566564139872"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "6",
+                "name": "WW Sandbox Triggers",
+                "fingerprint": "1566564139872"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "folderId": "7",
+                "name": "WW Sandbox Variables",
+                "fingerprint": "1566564139872"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            }
+        ],
+        "fingerprint": "1582055945647",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/7407459/containers/12754757/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "7407459",
+                "containerId": "12754757",
+                "templateId": "21",
+                "name": "Politweets by Whole Whale",
+                "fingerprint": "1567037722594",
+                "templateData": "___INFO___\n\n{\n  \"displayName\": \"Politweets by Whole Whale\",\n  \"description\": \"This is the script code that will allow your widget to populate with your campaign. You only need to place the container that has the campaign id wherever you will like within your page.\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"TAG\",\n  \"version\": 1,\n  \"brand\": {\n    \"thumbnail\": \"data:image/png;base64,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\",\n    \"displayName\": \"\",\n    \"id\": \"brand_dummy\"\n  },\n  \"containerContexts\": [\"WEB\"]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[{\n  \"simpleValueType\": true,\n  \"name\": \"debug\",\n  \"checkboxText\": \"Log Debug Messages to Console\",\n  \"type\": \"CHECKBOX\"\n}]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst logToConsole = require('logToConsole');\nconst injectScript = require('injectScript');\nconst queryPermission = require('queryPermission');\n\n// If the user chose to log debug output, initialize the logging method\nconst log = data.debug ? logToConsole : (() => {});\nconst script = \"https://app.politweets.org/code/Widget.2018.9.min.js\";\n\nconst onSuccess = () => {\n  log('Politweets: Script loaded successfully.');\n  data.gtmOnSuccess();\n};\n\nconst onFailure = () => {\n  log('Politweets: Script load failed.');\n  data.gtmOnFailure();\n};\n\nif (queryPermission('inject_script', script)) {\n  injectScript(script, onSuccess, onFailure);\n} else {\n  log('Politweets: Script load failed due to permissions mismatch.');\n  data.gtmOnFailure();\n}\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"string\": \"debug\",\n          \"type\": 1\n        },\n        \"key\": \"environments\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"logging\"\n      }\n    }\n  },\n  {\n    \"isRequired\": true,\n    \"instance\": {\n      \"param\": [{\n        \"value\": {\n          \"listItem\": [{\n            \"string\": \"https://*.politweets.org/*\",\n            \"type\": 1\n          }],\n          \"type\": 2\n        },\n        \"key\": \"urls\"\n      }],\n      \"key\": {\n        \"versionId\": \"1\",\n        \"publicId\": \"inject_script\"\n      }\n    },\n    \"clientAnnotations\": {\"isEditedByUser\": true}\n  }\n]\n\n\n___NOTES___\n\n\n\n\n"
+            }
+        ]
+    }
+}
